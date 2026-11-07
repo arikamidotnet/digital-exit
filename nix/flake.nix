@@ -20,16 +20,18 @@
           src = ./.;
           modRoot = "cli";
           subPackages = [ "." ];
-          CGO_ENABLED = "0";
           vendorHash = null;
           ldflags = [ "-s" "-w" ];
+          env = {
+            CGO_ENABLED = "0";
+          };
           meta = {
             description = "Archive Instagram exports, fetch saved media (yt-dlp), classify contacts, emit offline viewer, and support account deletion workflow.";
             mainProgram = "digital-exit";
             license = pkgs.lib.licenses.mit;
             platforms = pkgs.lib.platforms.unix;
           };
-        } // { env = { }; };
+        };
       in {
         packages.default = digital-exit;
 
