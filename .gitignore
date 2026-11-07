@@ -1,0 +1,17 @@
+# Local data — everything under these dirs is account-specific and usually large.
+/01-request/*.zip
+/02-archive/
+/03-media/
+/04-processed/*.db
+/04-processed/data.json
+/05-output/
+
+# Built binaries (README builds ./digital-exit at the repo root)
+/digital-exit
+/cli/digital-exit
+/cli/dist/
+*.exe
+
+# OS cruft
+.DS_Store
+Thumbs.db

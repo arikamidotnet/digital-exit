@@ -1,0 +1,4 @@
+{"following":[
+ {"username":"nytimes","full_name":"The New York Times","biography":"Journalists covering the world.","edge_followed_by":{"count":15000000},"edge_following":{"count":900},"is_verified":true,"external_url":"https://www.nytimes.com"},
+ {"username":"carol","full_name":"Carol C","biography":"","edge_followed_by":{"count":520},"edge_following":{"count":400},"is_verified":false}
+]}

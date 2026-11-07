@@ -1,0 +1,4 @@
+{"followers":[
+ {"username":"alice","full_name":"Alice A","biography":"content creator & photographer","edge_followed_by":{"count":120000},"edge_following":{"count":500},"is_verified":true,"external_url":"https://alice.com"},
+ {"username":"bob","full_name":"Bob B","biography":"","edge_followed_by":{"count":340},"edge_following":{"count":210},"is_verified":false}
+]}
