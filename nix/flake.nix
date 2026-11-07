@@ -29,7 +29,7 @@
             license = pkgs.lib.licenses.mit;
             platforms = pkgs.lib.platforms.unix;
           };
-        };
+        } // { env = { }; };
       in {
         packages.default = digital-exit;
 
